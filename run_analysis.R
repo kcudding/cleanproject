@@ -70,4 +70,6 @@ colnames(final)<-coln
 colnames(final)[1] <- "activity"
 
 #save the file to txt
+filedest="./proj/tidyset.txt"
+write.table(final, filedest)
 
